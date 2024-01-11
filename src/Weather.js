@@ -47,7 +47,11 @@ export default function Weather() {
         <div className="row">
           <div className="col-6">
             <div className="d-flex weather-temperature weather-temperature">
-              <img src={weatherData.imgURL} className="float-left" />
+              <img
+                src={weatherData.imgURL}
+                alt="weather img"
+                className="float-left"
+              />
               <div className="float-left">
                 <strong id="temperature"></strong>
                 <span className="units"> °F | °C </span>
