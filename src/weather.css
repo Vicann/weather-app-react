@@ -1,0 +1,57 @@
+.Weather .weather-temperature ion-icon {
+  position: relative;
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+  top: 10px;
+  font-size: 80px;
+}
+
+.Weather .weather-temperature strong {
+  color: black;
+  position: relative;
+  font-size: 70px;
+  line-height: 1px;
+  font-weight: 400;
+  top: 40px;
+}
+
+.Weather .weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: 20px;
+}
+
+.Weather .weather-temperature .active {
+  color: palevioletred;
+  cursor: default;
+}
+
+.Weather .weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.Weather .weather-forecast {
+  margin-top: 30px;
+  position: relative;
+}
+
+.Weather .weather-forecast-date {
+  font-size: 20px;
+  color: black;
+  position: relative;
+  left: 11px;
+}
+
+.Weather .weather-forecast-temperature-max {
+  font-size: 20px;
+}
+
+.Weather .weather-forecast-temperature-min {
+  font-size: 20px;
+}
+.elements {
+  position: relative;
+  top: -60px;
+  left: 200px;
+}
