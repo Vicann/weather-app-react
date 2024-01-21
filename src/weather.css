@@ -55,3 +55,10 @@
   top: -60px;
   left: 200px;
 }
+
+.Weather canvas {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+  display: inline-block;
+}
