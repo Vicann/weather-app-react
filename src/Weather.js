@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./weather.css";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 
 export default function Weather(props) {
@@ -12,6 +13,7 @@ export default function Weather(props) {
 
     setWeatherData({
       ready: true,
+      coordinates: response.data.coordinates,
       city: response.data.city,
       temperature: response.data.temperature.current,
       date: new Date(response.data.time * 1000),
@@ -24,7 +26,7 @@ export default function Weather(props) {
 
   function search() {
     const apiKey = "22fat04acb303d8c0a139735789ed0od";
-    let apiURL = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
+    let apiURL = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=imperial`;
     axios.get(apiURL).then(handleResponse);
   }
 
@@ -62,6 +64,7 @@ export default function Weather(props) {
         </form>
 
         <WeatherInfo data={weatherData} />
+        <WeatherForecast coordinates={weatherData.coordinates} />
 
         <div className="overview"></div>
       </div>
