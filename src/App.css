@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-
 body {
   background: rgb(254, 211, 207);
   background: linear-gradient(
@@ -7,7 +6,7 @@ body {
     rgba(254, 211, 207, 1) 32%,
     rgba(201, 131, 146, 1) 68%
   );
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .App {
