@@ -1,9 +1,13 @@
-.WeatherForecast.css {
+.WeatherForecast {
   text-align: center;
 }
 
 .weatherForecast-Temp-Min,
 .weatherForecast-Temp-Max {
   margin-left: 5px;
+  font-size: 20px;
+}
+
+#daysOfTheWeek {
   font-size: 20px;
 }

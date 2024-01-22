@@ -1,3 +1,31 @@
 #fahrenheit-temp {
-  font-size: 30px;
+  font-size: 100px;
+}
+
+#cityName {
+  font-size: 35px;
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+ul {
+  text-transform: capitalize;
+  list-style: none;
+}
+#fahrenheit-temp,
+#icon {
+  position: relative;
+  left: 170px;
+}
+
+#F {
+  font-size: 20px;
+  position: relative;
+  top: -25px;
+  left: 5px;
+}
+
+#icon {
+  position: relative;
+  top: 12px;
 }

@@ -1,16 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
 body {
-  font-family: "Orbitron", sans-serif;
   background: rgb(254, 211, 207);
   background: linear-gradient(
     90deg,
     rgba(254, 211, 207, 1) 32%,
     rgba(201, 131, 146, 1) 68%
   );
+  font-family: "Montserrat", sans-serif;
 }
 
 .App {
   margin: 20px;
-  width: 800px;
+  width: 700px;
   height: 540px;
   max-width: 1000px;
   margin: 40px auto;
@@ -20,25 +22,6 @@ body {
   margin-bottom: 20px;
   background-image: url("AdobeStock_616534312.jpeg");
   background-size: 900px;
-}
-h1 {
-  font-size: 20px;
-  font-weight: 100;
-  line-height: 28px;
-  margin-bottom: 0;
-}
-
-li {
-  list-style: none;
-  font-size: 20px;
-  font-weight: 100px;
-  line-height: 25px;
-  text-transform: capitalize;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
 }
 
 footer {
@@ -52,16 +35,6 @@ footer {
 #button {
   background-color: #a13844;
   border: 1px solid #a13844;
-}
-
-#current {
-  background-color: #eb8cae;
-  position: static;
-}
-
-#city {
-  position: relative;
-  top: 5px;
 }
 
 a:link {

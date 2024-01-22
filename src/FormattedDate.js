@@ -21,7 +21,7 @@ export default function FormattedDate(props) {
     minutes = `0${minutes}`;
   }
   return (
-    <div>
+    <div style={{ display: "inline" }}>
       {day} {hours}:{minutes}
     </div>
   );
