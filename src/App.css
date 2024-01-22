@@ -36,7 +36,7 @@ footer {
   border: 1px solid #a13844;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:link {
