@@ -35,9 +35,12 @@ footer {
   background-color: #a13844;
   border: 1px solid #a13844;
 }
+a {
+  text-decoration: none;
+}
 
 a:link {
-  color: #d5749e;
+  color: #772a3a;
 }
 
 a:visited {
@@ -45,5 +48,5 @@ a:visited {
 }
 
 a:hover {
-  color: hotpink;
+  color: #a0522d;
 }

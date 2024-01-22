@@ -8,7 +8,8 @@ export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <h1 id="cityName">{props.data.city}</h1>
-      <FormattedDate date={props.data.date} /> , {props.data.description}
+      <FormattedDate date={props.data.date} /> ,{" "}
+      <span id="description">{props.data.description}</span>
       <div>
         Humidity: {props.data.humidity}% , Wind: {props.data.wind} km/h
       </div>

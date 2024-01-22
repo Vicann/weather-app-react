@@ -29,3 +29,7 @@ ul {
   position: relative;
   top: 12px;
 }
+
+#description {
+  text-transform: capitalize;
+}
